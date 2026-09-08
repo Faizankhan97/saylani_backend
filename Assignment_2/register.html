@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <a href="/"><img src="./image/previous.png" alt="back" /></a>
+    <center>
+      <div>
+        <form action="./Thankyou.html">
+          <img src="./image/logo.png" alt="" width="200" height="200" />
+          <h2>STUDENT REGISTRATION FORM</h2>
+          <table cellpadding="10">
+            <tbody>
+              <tr>
+                <td>FIRST NAME</td>
+                <td>
+                  <input
+                    type="text"
+                    name="FirstName"
+                    maxlength="50"
+                    placeholder="Enter the First Name"
+                  />
+                  (max 30 characters a-z and A-Z)
+                </td>
+              </tr>
+              <tr>
+                <td>LAST NAME</td>
+                <td>
+                  <input
+                    type="text"
+                    name="LastName"
+                    maxlength="50"
+                    placeholder="Enter the Last Name"
+                  />
+                  (max 30 characters a-z and A-Z)
+                </td>
+              </tr>
+              <tr>
+                <td>DATE OF BIRTH</td>
+                <td>
+                  <input type="date" name="" id="" />
+                </td>
+              </tr>
+              <tr>
+                <td>EMAIL ID</td>
+                <td>
+                  <input
+                    type="email"
+                    name="EmailID"
+                    maxlength="100"
+                    placeholder="Enter the Email Address"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>MOBILE NUMBER</td>
+                <td>
+                  <input
+                    type="text"
+                    name="MobileNumber"
+                    maxlength="10"
+                    placeholder="Enter the Mobile Number"
+                  />
+                  (10 Digits Numbers)
+                </td>
+              </tr>
+              <tr>
+                <td>GENDER</td>
+                <td>
+                  Male<input type="radio" name="Gender" value="Male" />
+                  Female
+                  <input type="radio" name="Gender" value="Female" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  ADDRESS <br /><br /><br />
+                  <br />
+                  <br />
+                </td>
+                <td><textarea name="Address" rows="5" cols="40"></textarea></td>
+              </tr>
+              <tr>
+                <td>CITY</td>
+                <td>
+                  <input
+                    type="text"
+                    name="City"
+                    maxlength="50"
+                    placeholder="Enter the City Name"
+                  />
+                  (max 30 characters a-z and A-Z)
+                </td>
+              </tr>
+              <tr>
+                <td>PIN CODE</td>
+                <td>
+                  <input
+                    type="Number"
+                    name="PinCode"
+                    maxlength="6"
+                    placeholder="Enter the Pin Code"
+                  />
+                  (6 Digits Numbers)
+                </td>
+              </tr>
+              <tr>
+                <td>STATE</td>
+                <td>
+                  <input
+                    type="text"
+                    name="State"
+                    maxlength="50"
+                    placeholder="Enter the State"
+                  />
+                  (max 30 characters a-z and A-Z)
+                </td>
+              </tr>
+              <tr>
+                <td>COUNTRY</td>
+                <td>
+                  <input
+                    type="text"
+                    name="Country"
+                    placeholder="Enter the Country Name"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>HOBBIES <br /><br /><br /></td>
+                <td>
+                  Drawing
+                  <input type="checkbox" name="HobbyDrawing" value="Drawing" />
+                  Singing
+                  <input type="checkbox" name="HobbySinging" value="Singing" />
+                  Dancing
+                  <input type="checkbox" name="HobbyDancing" value="Dancing" />
+                  Sketching
+                  <input type="checkbox" name="HobbyCooking" value="Cooking" />
+                  <br />
+                  Others
+                  <input type="checkbox" name="HobbyOther" value="Other" />
+                  <input type="text" name="Other_Hobby" maxlength="50" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  QUALIFICATION <br /><br /><br /><br /><br /><br /><br />
+                </td>
+                <td>
+                  <table class="qualification-table">
+                    <tbody>
+                      <tr>
+                        <td><b>SI.No.</b></td>
+                        <td><b>Examination</b></td>
+                        <td align="center"><b>Board</b></td>
+                        <td align="center"><b>Percentage</b></td>
+                        <td align="center"><b>Year of passing</b></td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td>
+                          <input type="text" name="bor" maxlength="10" />
+                        </td>
+                        <td>
+                          <input type="text" name="percentage" />
+                        </td>
+                        <td>
+                          <input type="text" name="passing" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td>
+                          <input type="text" name="board" maxlength="10" />
+                        </td>
+                        <td>
+                          <input type="text" name="per" />
+                        </td>
+                        <td>
+                          <input type="text" name="pass" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td>
+                          <input type="text" name="bora" maxlength="10" />
+                        </td>
+                        <td>
+                          <input type="text" name="percen" />
+                        </td>
+                        <td>
+                          <input type="text" name="pas" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td>
+                          <input type="text" name="bo" maxlength="10" />
+                        </td>
+                        <td>
+                          <input type="text" name="pe" />
+                        </td>
+                        <td>
+                          <input type="text" name="pasing" />
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td align="center">(10 char max)</td>
+                        <td align="center">upto 2 decimal</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>COURSES<br />APPLIED FOR</td>
+                <td>
+                  <select name="courses" id="">
+                    <option value="">Select any course</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.A">B.A</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="BCA">B.Com</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Upload you pic <br />
+                  (only .png,.jpg,.jpeg formats allow)
+                </td>
+                <td><input type="file" accept=".jpg,.png,.jpeg" id="" /></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center">
+                  <a href="Submitted.html"
+                    ><input type="button" value="Submit"
+                  /></a>
+                  <input type="reset" value="Reset" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="app.js"></script>
+    </center>
+  </body>
+</html>
